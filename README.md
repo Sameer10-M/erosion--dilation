@@ -27,8 +27,8 @@ Display the original and processed images using plt.imshow() with proper axis co
 
 Finalize by calling plt.show() to display all images in a single figure for easy visualization and comparison.
 
-## REG NO: 212224230006
-## NAME : ABISHEIK RAJ J
+## REG NO: 212224220085
+## NAME : SAMEER SHARIFF M
 ## Program:
 ### Import the necessary packages
 ```
@@ -41,7 +41,7 @@ image = np.zeros((500, 500, 3), dtype="uint8")
 
 ### Create the Text using cv2.putText
 ```
-text = "AJAYRAJA RATHINAM"
+text = "SAMEER"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 ```
@@ -87,14 +87,14 @@ plt.axis("off")
 ## Output:
 
 ### Display the input Image
-<img width="520" height="511" alt="image" src="https://github.com/user-attachments/assets/163d150c-4444-4eb0-aa56-b4177e46e132" />
+<img width="467" height="515" alt="image" src="https://github.com/user-attachments/assets/14c88672-77e9-4ce4-897a-e44690927433" />
 
 ### Display the Eroded Image
-<img width="502" height="505" alt="image" src="https://github.com/user-attachments/assets/9840b1b4-7f43-43f4-a366-5bcdca7ca9cb" />
+<img width="480" height="512" alt="image" src="https://github.com/user-attachments/assets/59f87ef0-e969-4535-b772-156177474823" />
 
 
 ### Display the Dilated Image>
-<img width="550" height="521" alt="image" src="https://github.com/user-attachments/assets/e811c6fe-5c97-453a-86d6-c3002a93e89d" />
+<img width="477" height="509" alt="image" src="https://github.com/user-attachments/assets/4482935e-c19f-413e-ac76-bb01e35a0f6a" />
 
 
 ## Result
